@@ -13,13 +13,16 @@ new set()
 1. What are the differences between var, let, and const?
 
 ```
-
+var: Function-scoped, can be redeclared and updated.
+let: Block-scoped, can be updated but not redeclared.
+const: Block-scoped, cannot be updated or redeclared.
 ```
 
 2. What is the difference between == and ===?
 
 ```
-
+== checks only values (type coercion happens).
+=== checks both value and type (strict comparison).
 ```
 
 3. Explain the difference between null and undefined.
@@ -31,7 +34,8 @@ new set()
 4. What are JavaScript data types?
 
 ```
-
+Primitive: String, Number, Boolean, Undefined, Null, BigInt, Symbol
+Non-Primitive: Object, Array, Function
 ```
 
 5. What is the difference between function declaration and function
@@ -70,7 +74,7 @@ new set()
 10. What is a closure in JavaScript?
 
 ```
-
+A function that has access to its outer function's scope even after the outer function has finished execution.
 ```
 
 11. What are higher-order functions in JavaScript?
@@ -228,3 +232,30 @@ new set()
 ```
 
 ```
+
+36. Explain the difference between absolute, relative, fixed, and sticky positioning.
+
+```
+Relative: Moves based on its original position.
+Absolute: Moves relative to the nearest positioned parent.
+Fixed: Stays in the same position even when scrolling.
+Sticky: Sticks when scrolling but stays within its parent
+```
+
+37. What is flexbox and how does it work?
+
+```
+ A CSS layout system that helps align items easily.
+```
+
+Example:
+
+```js
+ .container {
+ display: flex;
+ justify-content: center; // Align horizontally
+ align-items: center; // Align vertically
+ }
+```
+
+38. use of stack
