@@ -390,6 +390,70 @@ console.log(obj1.b.c); // 10 (Different references)
 
 ## React
 
+1. [what is react?](#what-is-react)
+2. [why use React?](#why-use-react)
+3. [Virtual DOM & Real DOM?](#virtual-dom--real-dom)
+
+4. [Props]
+
+- Hooks
+
+5. [useState()](#usestate)
+6. [useEffect()](#useeffect)
+7. [useRef()](#useref)
+8. [useMemo()](#usememo)
+9. [useLayoutEffect()](#uselayouteffect)
+
+### what is react?
+
+```
+React is a javascript's library for building fast and interactive UI.
+```
+
+### why use React?
+
+```
+React make the UI development more easier and faster with reusable component and the Virtual DOM
+```
+
+### Virtual DOM vs Real DOM
+
+| Virtual DOM                                                                                       | Real DOM                                                    |
+| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| 🚀 Faster, minimizes changes before updating the Real DOM.                                        | 🐢 Slower, re-renders the entire component.                 |
+| 🏗️ A lightweight copy of the Real DOM for faster updates.                                         | 📜 The actual structure of the UI that the browser renders. |
+| 🔄 Updates the Virtual DOM first and applies changes only to the necessary parts of the Real DOM. | ✏️ Directly updates the UI, which is less efficient.        |
+
+### useState()
+
+```
+
+```
+
+### useEffect()
+
+```
+
+```
+
+### useRef()
+
+```
+
+```
+
+### useMemo()
+
+```
+
+```
+
+### useLayoutEffect()
+
+```
+
+```
+
 ## HTML-CSS
 
 1. [Explain the difference between absolute, relative, fixed, and sticky positioning.](#explain-the-difference-between-absolute-relative-fixed-and-sticky-positioning)
