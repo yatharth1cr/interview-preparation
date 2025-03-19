@@ -4,7 +4,7 @@
 - [REACT](#react)
 - [HTML-CSS](#html-css)
 
-## Javascript
+# Javascript
 
 1. [What are the differences between var, let, and const?](#what-are-the-differences-between-var-let-and-const)
 2. [What is the difference between == and ===?](#what-is-the-difference-between--and-)
@@ -44,6 +44,28 @@
 
 36. [Use of stack](#use-of-stack)
 37. [new set()](#new-set)
+
+# React
+
+1.  [what is react?](#what-is-react)
+2.  [why use React?](#why-use-react)
+3.  [Virtual DOM & Real DOM?](#virtual-dom--real-dom)
+4.  [Props](#props)
+5.  [state](#state)
+
+- Hooks
+
+6.  [useState()](#usestate)
+7.  [useEffect()](#useeffect)
+8.  [useReducer()](#usereducer)
+9.  [useRef()](#useref)
+10. [useMemo()](#usememo)
+11. [useLayoutEffect()](#uselayouteffect)
+
+# HTML-CSS
+
+1.  [Explain the difference between absolute, relative, fixed, and sticky positioning.](#explain-the-difference-between-absolute-relative-fixed-and-sticky-positioning)
+2.  [What is flexbox and how does it work?](#what-is-flexbox-and-how-does-it-work)
 
 ## Answers
 
@@ -242,6 +264,12 @@ console.log(obj1.b.c); // 10 (Different references)
 
 **Advanced JavaScript Questions**
 
+<p align="right">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/🔼-Back_to_Top-blue" alt="Back to Top">
+  </a>
+</p>
+
 ### What is prototypal inheritance in JavaScript?
 
 ```
@@ -388,22 +416,6 @@ console.log(obj1.b.c); // 10 (Different references)
 | `size`          | Returns number of elements | `mySet.size; // 5`      |
 | `clear()`       | Removes all values         | `mySet.clear();`        |
 
-## React
-
-1. [what is react?](#what-is-react)
-2. [why use React?](#why-use-react)
-3. [Virtual DOM & Real DOM?](#virtual-dom--real-dom)
-
-4. [Props]
-
-- Hooks
-
-5. [useState()](#usestate)
-6. [useEffect()](#useeffect)
-7. [useRef()](#useref)
-8. [useMemo()](#usememo)
-9. [useLayoutEffect()](#uselayouteffect)
-
 ### what is react?
 
 ```
@@ -424,28 +436,56 @@ React make the UI development more easier and faster with reusable component and
 | 🏗️ A lightweight copy of the Real DOM for faster updates.                                         | 📜 The actual structure of the UI that the browser renders. |
 | 🔄 Updates the Virtual DOM first and applies changes only to the necessary parts of the Real DOM. | ✏️ Directly updates the UI, which is less efficient.        |
 
+### props
+
+```
+- props is property
+- Cant be modified
+- read only
+- immutable
+```
+
+### state
+
+```
+- state is part of app that can be changed
+- each component have it's state
+- mutable
+- it is local to the component
+```
+
 ### useState()
 
 ```
-
+Stores and uodate data in fucntional component
 ```
 
 ### useEffect()
 
 ```
+Runs code when component loads, updates or unmount
+```
 
+### useReducer()
+
+```
+- used for more complex state management
+- it takes a reducer function and initiastate
+- returns state and dispatch function
+- dispatch which update the state to a different value
 ```
 
 ### useRef()
 
 ```
-
+stores reference to an element or value without re-render
 ```
 
 ### useMemo()
 
 ```
-
+- improves the app performance
+- use memoizationatio to remember values
 ```
 
 ### useLayoutEffect()
@@ -453,11 +493,6 @@ React make the UI development more easier and faster with reusable component and
 ```
 
 ```
-
-## HTML-CSS
-
-1. [Explain the difference between absolute, relative, fixed, and sticky positioning.](#explain-the-difference-between-absolute-relative-fixed-and-sticky-positioning)
-2. [What is flexbox and how does it work?](#what-is-flexbox-and-how-does-it-work)
 
 ### Explain the difference between absolute, relative, fixed, and sticky positioning.
 
@@ -483,3 +518,9 @@ Example:
  align-items: center; //Align vertically
  }
 ```
+
+<p align="right">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/🔼-Back_to_Top-blue" alt="Back to Top">
+  </a>
+</p>
