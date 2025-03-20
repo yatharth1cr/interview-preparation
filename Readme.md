@@ -1,8 +1,28 @@
 # Interview Preparation
 
-- [JAVASCRIPT](#javascript)
 - [REACT](#react)
+- [JAVASCRIPT](#javascript)
 - [HTML-CSS](#html-css)
+
+# React
+
+1.  [what is react?](#what-is-react)
+2.  [why use React?](#why-use-react)
+3.  [Virtual DOM & Real DOM?](#virtual-dom--real-dom)
+4.  [Props](#props)
+5.  [state](#state)
+6.  [JSX what it is and how it works]()
+
+- Hooks
+
+7.  [useState()](#usestate)
+8.  [useEffect()](#useeffect)
+9.  [useCallback()]()
+10. [useReducer()](#usereducer)
+11. [useRef()](#useref)
+12. [useMemo()](#usememo)
+13. [useLayoutEffect()](#uselayouteffect)
+14. [use()]()
 
 # Javascript
 
@@ -44,23 +64,6 @@
 
 36. [Use of stack](#use-of-stack)
 37. [new set()](#new-set)
-
-# React
-
-1.  [what is react?](#what-is-react)
-2.  [why use React?](#why-use-react)
-3.  [Virtual DOM & Real DOM?](#virtual-dom--real-dom)
-4.  [Props](#props)
-5.  [state](#state)
-
-- Hooks
-
-6.  [useState()](#usestate)
-7.  [useEffect()](#useeffect)
-8.  [useReducer()](#usereducer)
-9.  [useRef()](#useref)
-10. [useMemo()](#usememo)
-11. [useLayoutEffect()](#uselayouteffect)
 
 # HTML-CSS
 
