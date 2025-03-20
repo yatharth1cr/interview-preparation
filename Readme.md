@@ -264,12 +264,6 @@ console.log(obj1.b.c); // 10 (Different references)
 
 **Advanced JavaScript Questions**
 
-<p align="right">
-  <a href="#top">
-    <img src="https://img.shields.io/badge/🔼-Back_to_Top-blue" alt="Back to Top">
-  </a>
-</p>
-
 ### What is prototypal inheritance in JavaScript?
 
 ```
