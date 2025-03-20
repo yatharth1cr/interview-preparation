@@ -519,8 +519,11 @@ Example:
  }
 ```
 
-<p align="right">
+<p style="position: fixed; right: 20px; bottom: 20px; z-index: 1000;">
   <a href="#top">
-    <img src="https://img.shields.io/badge/🔼-Back_to_Top-blue" alt="Back to Top">
+    <img src="https://img.shields.io/badge/🔼-Back_to_Top-blue" alt="Back to Top" 
+         style="width: 90px; transition: transform 0.3s ease-in-out;"
+         onmouseover="this.style.transform='scale(1.1)'" 
+         onmouseout="this.style.transform='scale(1)'">
   </a>
 </p>
