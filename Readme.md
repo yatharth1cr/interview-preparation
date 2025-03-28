@@ -341,8 +341,6 @@ console.log(name); // "Yatharth"
 console.log(greet()); // "Hello!"
 ```
 
-```
-
 ### What is memoization in JavaScript?
 
 ```
@@ -395,9 +393,13 @@ console.log(greet()); // "Hello!"
 
 ### What is the difference between localStorage, sessionStorage, and cookies?
 
-```
+| Storage          | Expiry        | Scope          | Size |
+| ---------------- | ------------- | -------------- | ---- |
+| `localStorage`   | Never         | Same origin    | 5MB  |
+| `sessionStorage` | On tab close  | Same origin    | 5MB  |
+| `cookies`        | Manual expiry | Sent to server | 4KB  |
 
-```
+
 
 ### What is the fetch() API?
 
