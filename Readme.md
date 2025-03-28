@@ -263,7 +263,20 @@ console.log(obj1.b.c); // 10 (Different references)
 
 ### How does the this keyword work in JavaScript?
 
-```
+```js
+The this keyword refers to the object that is calling the function. It behaves differently based on how the function is called:
+In a regular function: this refers to the global object (window in browsers, global in Node.js).
+In an object method: this refers to the object that owns the method.
+In an arrow function: this is inherited from the surrounding function.
+In a constructor function or class: this refers to the new instance created.
+
+const person = {
+  name: "Yatharth",
+  greet() {
+    console.log(this.name); // "Yatharth"
+  }
+};
+person.greet();
 
 ```
 
@@ -271,20 +284,36 @@ console.log(obj1.b.c); // 10 (Different references)
 
 ### What is prototypal inheritance in JavaScript?
 
-```
-
+```js
+In JavaScript, objects can inherit properties and methods from another object using prototypes.
+ 
+const animal = { eats: true };
+const dog = Object.create(animal);
+console.log(dog.eats); // true (inherited from animal)
 ```
 
 ### What are promises and how do they work?
 
-```
+```js
+A promise is used for handling asynchronous operations. It has three states: pending, resolved, and rejected.
 
+const fetchData = new Promise((resolve, reject) => {
+  setTimeout(() => resolve("Data received"), 2000);
+});
+fetchData.then(data => console.log(data));
 ```
 
 ### What is async and await in JavaScript?
 
-```
+```js
+async and await make working with promises easier by allowing us to write asynchronous code in a synchronous style.
 
+async function fetchData() {
+  let data = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  let json = await data.json();
+  console.log(json);
+}
+fetchData();
 ```
 
 ### What are generators in JavaScript?
@@ -294,7 +323,22 @@ console.log(obj1.b.c); // 10 (Different references)
 ```
 
 ### What are JavaScript modules? (import and export)
+```
+Modules allow us to split code into separate files for better organization.
+```
+File: module.js
+```js
+export const name = "Yatharth";
+export function greet() {
+  return "Hello!";
+}
+```
 
+File: main.js
+```js
+import { name, greet } from "./module.js";
+console.log(name); // "Yatharth"
+console.log(greet()); // "Hello!"
 ```
 
 ```
